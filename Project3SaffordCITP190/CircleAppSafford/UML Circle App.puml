@@ -1,0 +1,7 @@
+@startuml
+class com.circleappsafford.Circle
+class com.circleappsafford.CircleApp
+class java.util.Scanner
+com.circleappsafford.Circle ..> java.util.Scanner
+com.circleappsafford.CircleApp ..> java.util.Scanner
+@enduml
